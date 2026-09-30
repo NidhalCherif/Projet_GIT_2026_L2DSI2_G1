@@ -9,7 +9,12 @@
 
 <body>
     <?php
+
     $articles = ["Imprimante", "Tablette", "Câbles HDMI", "Stylet"];
+
+
+    echo isset($articles) ? "<h1> Liste des articles</h1>" : "<h1> aucun article à afficher</h1>";
+
     ?>
     <ul>
         <?php
